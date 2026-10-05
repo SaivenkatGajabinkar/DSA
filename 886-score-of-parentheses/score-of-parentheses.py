@@ -8,6 +8,6 @@ class Solution:
             else:
                 a -= 1
                 if s[i-1] == '(':
-                    b += 1 << a
+                    b += 2**a
         return b
         
